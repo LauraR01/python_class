@@ -22,7 +22,7 @@ elif opc == 2 :
 	print("la resta es: ",resta)
 
 elif opc == 3 :
-	mult == num1 * num2
+	mult = num1 * num2
 	print("la multiplicacion es: ",mult)
 
 elif opc == 4 :
