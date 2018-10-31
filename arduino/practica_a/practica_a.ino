@@ -1,15 +1,9 @@
 char opcion = '0';
 const int LedRojo = 7;
-const int LedVerde = 2;
-const int LedAma = 4;
-const int Motor = 12;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   pinMode(LedRojo,OUTPUT);
-  pinMode(LedVerde,OUTPUT);
-  pinMode(LedAma,OUTPUT);
-  pinMode(Motor,OUTPUT);
 }
 
 void loop() {
